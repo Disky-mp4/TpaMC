@@ -4,9 +4,7 @@
 -- Author: Disky & Superzorik
 --]]---------------------------------------------
 
-local requests = {
-    --[RequestSentToID] = {RequestFromID, GetGameTimer()}
-}
+local requests = {}
 
 local function sendMsg(id, msg, name, cols)
     TriggerClientEvent("chat:addMessage", id, {
